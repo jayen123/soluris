@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="shortcut icon"
-      href="/src/images/logo-2.png"
+      href="/src/assets/images/logo-2.png"
       type="image/x-icon"
     />
     <link
@@ -21,14 +21,14 @@
     <link href="/dist/output.css" rel="stylesheet" />
   </head>
   <body>
-    <footer class="bg-[#1d1d29]">
-      <section>
+    <footer>
+      <section class="bg-[#1d1d29]">
         <div class="container">
-          <div class="flex items-center justify-between py-[25px]">
-            <div>
+          <div class="grid grid-cols-1 gap-5 py-[25px] sm:grid-cols-2 sm:gap-0">
+            <div class="flex justify-center sm:justify-start items-center order-2 sm:order-first">
               <span class="text-[#9898a0]">© Copyright reserved by<a class="duration-300 ease-linear hover:text-white" href="#">kodesolution.com</a></span>
             </div>
-            <div>
+            <div class="flex items-center justify-center sm:justify-end">
               <ul class="flex gap-[10px]">
                 <li>
                   <a class="inline-flex w-[45px] h-[45px] items-center justify-center bg-[#313140] rounded-sm text-white hover:bg-theme-color1 hover:-translate-y-[5px] duration-300 transition-all" href="#"><i class="fa-brands fa-facebook fa-fw"></i></a>
@@ -45,6 +45,41 @@
               </ul>
             </div>
           </div>
+        </div>
+      </section>
+      <section class="relative h-screen bg-[url('/src/assets/images/footer.jpg')] bg-no-repeat bg-center bg-cover before:content-[''] before:absolute before:left-0 before:top-0 before:w-full before:h-screen before:bg-[url('/src/assets/images/overlay-footer.jpg')] before:opacity-90">
+        <div class="container relative">
+          <div>
+            <div>
+              <div>
+                <a href="#">
+                  <img src="/src/assets/images/logo-2.png" alt="footer-logo">
+                </a>
+              </div>
+              <div class="text-[#9898a0]">
+                <span>
+                  012 Broklyn Street, 57
+                  New York, USA
+                </span>
+                <span>
+                  <a href="mailto:needhelp@domain.com">
+                    needhelp@domain.com
+                  </a>
+                </span>
+                <span class="text-white font-bold">
+                  <a href="tel:9993330000">999 333 0000</a>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div>
+              <h3 class="text-white text-2xl font-bold">Service</h3>
+            </div>
+            <div></div>
+          </div>
+          <div></div>
+          <div></div>
         </div>
       </section>
     </footer>
