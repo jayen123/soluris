@@ -21,22 +21,54 @@
     <link href="/dist/output.css" rel="stylesheet" />
   </head>
   <body class="selection:bg-black selection:text-white">
+
+    <!-- news section start here -->
+     <section>
+      <div class="container">
+        <div class="grid grid-cols-3">
+          <div class="shadow-lg p-5">
+            <div>
+              <a href="#">
+                <img class="object-center" src="/src/assets/images/news-1.jpg" alt="news">
+              </a>
+              <span>28 sep</span>
+            </div>
+            <div>
+              <ul>
+                <li>
+                  <i class="fa fa-user"></i>
+                  <span> by Admin</span>
+                </li>
+                <li>
+                  <i class="fa fa-comments"></i>
+                  <span> 2 Comments</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+     </section>
+    <!-- news section End here -->
+
     <!-- Help Section Start Here -->
-    <section>
+    <section class="pt-[120px] pb-[90px]">
       <div class="container">
         <div class="grid grid-cols-5 gap-6">
-          <div class="col-span-1 xl:col-span-3">
-            <div>
-              <span class="text-theme-color1 font-bold tracking-widest"
+          <div class="flex flex-col gap-[20px] col-span-5 sm:gap-[30px] md:gap-[50px] lg:col-span-3">
+            <div class="flex flex-col gap-3">
+              <span class="text-sm text-theme-color1 font-bold tracking-widest sm:text-base"
                 >SEND US EMAIL</span
               >
-              <h2 class="text-5xl text-theme-color3 font-bold">
+              <h2 class="text-[32px] sm:text-[38px] xl:text-5xl text-theme-color3 font-bold">
                 Feel free to write
               </h2>
             </div>
-            <div>
+            <div class="flex flex-col gap-4">
               <form class="grid grid-cols-2 gap-6" action="#">
-                <div class="col-span-1">
+                <div class="col-span-2 sm:col-span-1">
                   <input
                     class="w-full py-[14px] px-[30px] bg-[#f4f5f8] text-[#686a6f] text-sm outline-none border border-[#f4f5f8] rounded-md focus:border focus:border-theme-color1 focus:bg-white focus:text-[#212529]"
                     type="text"
@@ -46,7 +78,7 @@
                     style="height: calc(2.25rem + 27px)"
                   />
                 </div>
-                <div class="col-span-1">
+                <div class="col-span-2 sm:col-span-1">
                   <input
                     class="w-full py-[14px] px-[30px] bg-[#f4f5f8] text-[#686a6f] text-sm outline-none border border-[#f4f5f8] rounded-md focus:border focus:border-theme-color1 focus:bg-white focus:text-[#212529]"
                     type="email"
@@ -56,7 +88,7 @@
                     style="height: calc(2.25rem + 27px)"
                   />
                 </div>
-                <div class="col-span-1">
+                <div class="col-span-2 sm:col-span-1">
                   <input
                     class="w-full py-[14px] px-[30px] bg-[#f4f5f8] text-[#686a6f] text-sm outline-none border border-[#f4f5f8] rounded-md focus:border focus:border-theme-color1 focus:bg-white focus:text-[#212529]"
                     type="text"
@@ -66,7 +98,7 @@
                     style="height: calc(2.25rem + 27px)"
                   />
                 </div>
-                <div class="col-span-1">
+                <div class="col-span-2 sm:col-span-1">
                   <input
                     class="w-full py-[14px] px-[30px] bg-[#f4f5f8] text-[#686a6f] text-sm outline-none border border-[#f4f5f8] rounded-md focus:border focus:border-theme-color1 focus:bg-white focus:text-[#212529]"
                     type="text"
@@ -78,51 +110,50 @@
                 </div>
                 <div class="col-span-2">
                   <textarea
-                    class="w-full h-auto py-[14px] px-[30px] bg-[#f4f5f8] text-[#686a6f] text-sm outline-none border border-[#f4f5f8] rounded-md focus:border focus:border-theme-color1 focus:bg-white focus:text-[#212529] resize-none"
-                    rows="7"
+                    class="w-full py-[14px] px-[30px] bg-[#f4f5f8] text-[#686a6f] text-sm outline-none border border-[#f4f5f8] rounded-md focus:border focus:border-theme-color1 focus:bg-white focus:text-[#212529] resize-none"
+                    rows="8"
                     placeholder="Enter Message"
                     spellcheck="false"
-                    style="min-height: calc(1.5em + 0.75rem + 2px)"
                   ></textarea>
                 </div>
               </form>
-              <div>
+              <div class="flex justify-center gap-2 sm:justify-start">
                 <button
-                  class="py-[15px] px-[50px] bg-theme-color1 rounded-md text-sm tracking-widest leading-7 text-white font-semibold uppercase"
+                  class="py-[10px] px-[30px] bg-theme-color1 rounded-md text-sm tracking-widest leading-7 text-white font-semibold uppercase md:py-[15px] md:px-[50px]"
                 >
                   Send Message
                 </button>
                 <button
-                  class="py-[15px] px-[50px] bg-theme-color1 rounded-md text-sm tracking-widest leading-7 text-white font-semibold uppercase"
+                  class="py-[10px] px-[30px] bg-theme-color1 rounded-md text-sm tracking-widest leading-7 text-white font-semibold uppercase md:py-[15px] md:px-[50px]"
                 >
                   Reset
                 </button>
               </div>
             </div>
           </div>
-          <div class="col-span-1 xl:col-span-2">
-            <div>
-              <span class="text-theme-color1 font-bold tracking-widest"
+          <div class="flex flex-col gap-[20px] col-span-5 sm:gap-[30px] md:gap-[50px] lg:col-span-2">
+            <div class="flex flex-col gap-3">
+              <span class="text-sm text-theme-color1 font-bold tracking-widest sm:text-base"
                 >NEED ANY HELP?</span
               >
-              <h2 class="text-5xl text-theme-color3 font-bold">
+              <h2 class="text-[32px] sm:text-[38px] xl:text-5xl text-theme-color3 font-bold">
                 Get in touch with us
               </h2>
             </div>
-            <div>
+            <div class="flex flex-col gap-[50px]">
               <div>
-                <p>
+                <p class="text-[#767676]">
                   Lorem ipsum is simply free text available dolor sit amet
                   consectetur notted adipisicing elit sed do eiusmod tempor
                   incididunt simply dolore magna.
                 </p>
               </div>
-              <div>
+              <div class="flex flex-col gap-[30px]">
                 <div class="group flex items-center gap-[30px]">
                   <div class="h-20 w-20 bg-theme-color1 flex items-center justify-center text-2xl text-white rounded-full group-hover:bg-theme-color2 duration-300">
                     <i class="fa-solid fa-phone group-"></i>
                   </div>
-                  <div>
+                  <div class="flex flex-col gap-[5px]">
                     <h6 class="text-headings-color text-lg font-bold">Have any question?</h6>
                     <a class="text-xl text-text-color" href="tel:980089850">
                       Free +92 (020)-9850
@@ -133,7 +164,7 @@
                   <div class="h-20 w-20 bg-theme-color1 flex items-center justify-center text-2xl text-white rounded-full group-hover:bg-theme-color2 duration-300">
                     <i class="fa-regular fa-envelope"></i>
                   </div>
-                  <div>
+                  <div class="flex flex-col gap-[5px]">
                     <h6 class="text-headings-color text-lg font-bold">Write email</h6>
                     <a class="text-xl text-text-color" href="mailto:needhelp@company.com">
                       needhelp@company.com
@@ -142,13 +173,13 @@
                 </div>
                 <div class="group flex items-center gap-[30px]">
                   <div class="h-20 w-20 bg-theme-color1 flex items-center justify-center text-2xl text-white rounded-full group-hover:bg-theme-color2 duration-300">
-                    <i class="fa-regular fa-paper-plane"></i>
+                    <i class="fa-solid fa-location-arrow"></i>
                   </div>
-                  <div>
+                  <div class="flex flex-col gap-[5px] flex-1">
                     <h6 class="text-headings-color text-lg font-bold">Visit anytime</h6>
-                    <a class="text-xl text-text-color" href="mailto:needhelp@company.com">
+                    <span class="text-xl text-text-color">
                       66 broklyn golden street. New York
-                    </a>
+                    </span>
                   </div>
                 </div>
               </div>
